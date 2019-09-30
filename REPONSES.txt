@@ -20,3 +20,7 @@ Exercice 3
 6. Ça propose de définir le getter de toto (respectivement le setter en entrant set puis Ctrl+Espace)  
 
 Exercice 4 
+
+
+
+modif git
