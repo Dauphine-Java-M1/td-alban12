@@ -1,0 +1,22 @@
+Alban Tiacoh 
+
+Exercice 1 
+
+
+8. Le class path est le chemin jusqu'à la classe pour l'exécution, il sert à spécifier où se trouve la classe à exécuter
+13. Cette propriété sert à lier au maven.compiler.source, on doit lui donner la même valeur que celle de maven.compiler.source
+
+
+Exercice 2 
+
+2. Rien ne se passe car : aucun attribut manifest principal dans target/td00-1.0-SNAPCHOT.jar 
+
+
+
+Exercice 3
+3. Ça complete la méthode system.out.println 
+4. Ça propose de redéfinir la méthode toString ou toStr  
+5. Ça propose de définir la méthode main et ça montre les classes qui correspondantent au mot (MalformedInputException,MarginBorder,MaximizeAction) 
+6. Ça propose de définir le getter de toto (respectivement le setter en entrant set puis Ctrl+Espace)  
+
+Exercice 4 
