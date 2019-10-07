@@ -1,6 +1,4 @@
-Modif Git
 Alban Tiacoh 
-
 
 Exercice 1 
 
@@ -25,4 +23,51 @@ Exercice 4
 
 
 
-modif git
+TD 2 
+
+Exercice 1 
+Fichiers dignent d'intérêt du projet : 
+
+2.
+POM.xml 
+PrimeCollection.java
+REPONSES.txt
+
+4. git commit -m 'initial import' //Autre méthodes pour git commit 
+
+5. On peut observer la modification entre l'ancienne version du fichier et la derniere 
+
+8. Hash de mon premier commit : 340a4a83ee30251b33898aae57ac7f672f269f94
+
+Exercice 2 
+
+3.gitk le représente en ajoutant un lien de master à remote/origin/master
+
+5. Le push est refuser -> la branche distante contient du travail que il n'ya pas en local 
+
+6. Les branches sont fusionné et on peut accéder au deux parents 
+
+7. Il y aurait eu un conflit et la fusion n'aurait pas été possible  
+
+Exercice 3
+
+2. On remarque qu'un test à été effectuer sans soucis, en modifiant le paramètre de l'assertTrue en false on obtien maintenant un failure du test, la méthode assertTrue s'assure que la condition est bien vraie 
+
+TD shapes 
+
+Exercice 1 
+
+1. Pourquoi cela fonctionne t-il ? Car les champs x et y sont privé et ne sont donc visible que dans leur classe ce qui est ici le cas  
+
+2.Les champs n'étant pas accessible en dehors de leur classe on obtient une erreur, on peut y remédier en changeant la visibilté les champs en protected ou en public 
+3. Il faut que les champs d'une classe soient privés pour empêcher une mauvaise utilisation de celle ci succeptible de la modifier, 
+
+4. Un accesseur est une méthode permettant de récupérer les valeurs des champs privées, oui il serait mieux d'en créer 
+
+
+
+
+Exercice 2 
+
+1. true puis false, car la première égalité vérifie que les addresses sont les même ce qui est le cas et la deuxième égalité bien que les objets aient les mêmes valeurs, il ne sont pas les même (addresse diff) 
+2.
