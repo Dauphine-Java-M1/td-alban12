@@ -34,5 +34,29 @@ public class Point {
 		if (this.x==p.x && this.y==p.y) return true;
 		else return false;
 	}
-
+	
+	public void translate(double dx,double dy)
+	{
+		this.x+=dx;
+		this.y+=dy;
+	}
+	
+	@Override
+	public boolean equals(Object obj)
+	{
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		if (this.isSameAs((Point) obj));
+			return true;
+	}
+	
+	@Override 
+	public String toString()
+	{
+		return "("+this.x+","+this.y+")";
+	}
 }

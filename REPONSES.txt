@@ -70,4 +70,17 @@ Exercice 1
 Exercice 2 
 
 1. true puis false, car la première égalité vérifie que les addresses sont les même ce qui est le cas et la deuxième égalité bien que les objets aient les mêmes valeurs, il ne sont pas les même (addresse diff) 
-2.
+3. La méthode equals() est appelée
+
+Exercice 3 
+2. Le point n'est pas ajouté ou il y a une exception levée 
+
+
+5. On a une NullPointerException si null est passé en paramètre à contains, si on ajoute null à add, rien ne se passe 
+
+6.pointCapacity n'a plus de sens, cependant les 2 autres méthodes fonctionnent toujours
+
+Exercice 4 
+
+
+5. La translation s'effectue sur le même objet Point  
