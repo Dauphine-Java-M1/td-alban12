@@ -30,7 +30,7 @@ public class PrimeCollection
 			numbers.add(nombreAleatoire);
 		}
 	}
-	private static boolean isPrime(int p)
+	public static boolean isPrime(int p)
 	{
 		boolean isprime=true;
 		double rest;
