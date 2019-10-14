@@ -83,4 +83,13 @@ Exercice 3
 Exercice 4 
 
 
-5. La translation s'effectue sur le même objet Point  
+5. La translation s'effectue sur le même objet Point, on évite ceci en créant un nouvel objet ayant les mêmes param                
+
+6.Le problème serait que le point n'est pas translater car il faudrait créer une copie défensive, cependant comme on crée un objet différent le problème est déjà résolu
+  
+9.Oui, il serait plus logique de la mettre en statique étant donné qu'elle n'est
+ pas propre à un objet
+
+Exercice 5
+
+1.Oui, il est assez logique d'utiliser l'héritage ici.

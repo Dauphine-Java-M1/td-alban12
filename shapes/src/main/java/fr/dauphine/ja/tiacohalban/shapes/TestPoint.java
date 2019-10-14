@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class TestPoint {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws RayonException {
 		// TODO Auto-generated method stub
 		/*Point p=new Point();
 		Point p1=new Point(1,2);
@@ -12,7 +12,7 @@ public class TestPoint {
 		Point p3=new Point(1,2);
 		System.out.println("("+p.getX()+","+p.getY()+")");
 		System.out.println(p.isSameAs(p2));
-		ArrayList<Point> list = new ArrayList<>();
+		ArrayList<Point> list = new ArrayL(Mist<>();
 		list.add(p1);
 		System.out.println(list.indexOf(p2));
 		System.out.println(list.indexOf(p3));*/
@@ -26,11 +26,18 @@ public class TestPoint {
 		bl.add(p1);
 		bl.add(p2);
 		//System.out.println(bl.contains(null));
-		Point p=new Point(1,2);
+		/*Point p=new Point(1,2);
 		Circle c=new Circle(p,1);
 		Circle c2=new Circle(p,2);
 		c2.translate(1,1);
-		System.out.println(c+" "+c2);
+		System.out.println(c+" "+c2);*/
+		Circle c = new Circle(new Point(1,1),2);
+		System.out.println(c.contains(new Point(1,3)));
+		
+		
+		Ring ring = new Ring(new Point(1,1),3,2);
+		System.out.println(ring.getCenter());
+		System.out.println(ring);
 	}
 
 }

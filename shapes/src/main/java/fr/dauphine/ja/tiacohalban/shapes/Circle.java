@@ -1,8 +1,10 @@
 package fr.dauphine.ja.tiacohalban.shapes;
 
+import java.util.List;
+
 public class Circle {
-	private Point centre;
-	private double rayon;
+	protected Point centre;
+	protected double rayon;
 	public Circle()
 	{
 		this.centre=new Point();
@@ -10,7 +12,7 @@ public class Circle {
 	}
 	public Circle(Point p, double rayon)
 	{
-		this.centre=p;
+		this.centre= new Point(p.getX(),p.getY());
 		this.rayon=rayon;
 	}
 	public void translate(double dx,double dy)
@@ -23,5 +25,27 @@ public class Circle {
 	{
 		return "centre :"+this.centre.toString()+" de rayon "+this.rayon;
 	}
-
+	
+	public Point getCenter()
+	{
+		return this.centre;
+	}
+	public double surface()
+	{
+		return 3.1415*this.rayon*this.rayon;
+	}
+	public boolean contains(Point p)
+	{
+		if (Math.sqrt(Math.pow((p.getX()-this.centre.getX()),2)+Math.pow((p.getY()-this.centre.getY()),2))<=this.rayon)
+			return true;
+		return false;
+	}
+	public static boolean contains(Point p, List<Circle> circles)
+	{
+		for (Circle c:circles)
+		{
+			if (c.contains(p)) return true;
+		}
+		return false;
+	}
 }
