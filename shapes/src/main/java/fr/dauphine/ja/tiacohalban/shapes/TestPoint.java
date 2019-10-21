@@ -15,7 +15,7 @@ public class TestPoint {
 		ArrayList<Point> list = new ArrayL(Mist<>();
 		list.add(p1);
 		System.out.println(list.indexOf(p2));
-		System.out.println(list.indexOf(p3));*/
+		System.out.println(list.indexOf(p3));
 		Point p0=new Point(5,0);
 		Point p1=new Point(5,1);
 		Point p2=new Point(5,2);
@@ -30,14 +30,14 @@ public class TestPoint {
 		Circle c=new Circle(p,1);
 		Circle c2=new Circle(p,2);
 		c2.translate(1,1);
-		System.out.println(c+" "+c2);*/
+		System.out.println(c+" "+c2);
 		Circle c = new Circle(new Point(1,1),2);
-		System.out.println(c.contains(new Point(1,3)));
+		System.out.println(c.contains(new Point(1,3)));*/
 		
 		
-		Ring ring = new Ring(new Point(1,1),3,2);
-		System.out.println(ring.getCenter());
+		Ring ring = new Ring(new Point(0,0),4,2);
 		System.out.println(ring);
+		
 	}
 
 }

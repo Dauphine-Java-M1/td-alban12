@@ -3,8 +3,6 @@ package fr.dauphine.ja.tiacohalban.shapes;
 import java.util.List;
 
 public class Ring extends Circle {
-	private Point centre;
-	private double rayon;
 	private double rayoninterne;
 	public Ring(Point p,double rayon,double rayoninterne)
 		throws RayonException
@@ -26,8 +24,24 @@ public class Ring extends Circle {
 	}
 	public boolean contains(Point p)
 	{
-		
+		if (super.contains(p) && !(Math.sqrt(Math.pow((p.getX()-this.centre.getX()),2)+Math.pow((p.getY()-this.centre.getY()),2))<=this.rayoninterne))
+			return true;
+		else 
 		return false;
 	}
+	public static boolean contains(Point p,Ring...rings)
+	{
+		for (Ring r:rings)
+		{
+			if (r.contains(p))
+				return true;
+		}
+		return false;
+		
 	}
+	public String toString()
+	{
+		return super.toString()+" et de rayon interne "+this.rayoninterne ;
+	}
+}
 

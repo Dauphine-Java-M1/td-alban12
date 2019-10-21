@@ -93,3 +93,8 @@ Exercice 4
 Exercice 5
 
 1.Oui, il est assez logique d'utiliser l'héritage ici.
+4. C'est la méthode toString() de la classe mère qui est appelée, et elle ne prend pas en compte le rayon interne..
+
+TD MVC 
+
+Exercice 1 

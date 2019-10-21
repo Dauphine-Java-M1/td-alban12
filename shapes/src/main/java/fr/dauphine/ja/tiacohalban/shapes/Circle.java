@@ -40,7 +40,7 @@ public class Circle {
 			return true;
 		return false;
 	}
-	public static boolean contains(Point p, List<Circle> circles)
+	public static boolean contains(Point p, Circle...circles)
 	{
 		for (Circle c:circles)
 		{
