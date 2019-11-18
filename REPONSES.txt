@@ -98,3 +98,17 @@ Exercice 5
 TD MVC 
 
 Exercice 1 
+
+1. 
+
+2. 
+
+3. 
+
+4. 
+
+5. Lorsque l'on interagit avec la fenêtre 
+
+6. Le package java.awt est HeavyWeight tandis que le package java.swing est LightWeight 
+
+Exercice 2
