@@ -24,4 +24,11 @@ public class Panel implements Iterable<Integer> {
 		for(int i=a;i<=b;i++) li.add(i);
 		return li.iterator();
 	}
+	public static List<Integer> panel(int a,int b)
+	{
+		List<Integer> li = new ArrayList<Integer>();
+		for(int i=a;i<=b;i++) li.add(i);
+		return li;
+	}
+	
 }
