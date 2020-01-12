@@ -112,3 +112,13 @@ Exercice 1
 6. Le package java.awt est HeavyWeight tandis que le package java.swing est LightWeight 
 
 Exercice 2
+
+
+
+TD Iterable 
+
+
+Exercice 1 
+
+
+
