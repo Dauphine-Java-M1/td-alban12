@@ -8,7 +8,7 @@ public class BrokenLine {
 	private LinkedList<Point> tabpoint;
 	public BrokenLine()
 	{
-		tabpoint = new LinkedList<>();
+	//	tabpoint = new LinkedList<>();
 	}
 	/*public BrokenLine(int n)
 	{

@@ -30,6 +30,7 @@ public class Panel extends AbstractList<Integer> implements Iterable<Integer> {
 		
 	}
 	
+	
 	public static List<Integer> panel(int a,int b)
 	{
 	List<Integer>  it = range(a,b);
@@ -76,6 +77,7 @@ public class Panel extends AbstractList<Integer> implements Iterable<Integer> {
 	            }
 	        };
 	}
+	
 	
 	
 }
