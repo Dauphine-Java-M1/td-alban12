@@ -119,6 +119,36 @@ TD Iterable
 
 
 Exercice 1 
+CF code 
+
+Exercice 2 
+cf code 
+TD 3 
+
+
+L’interface Comparable fournit des méthodes pour comparer deux objets, pour faire en sorte que des objets d’une classe quelconque puisse être comparés entre eux, il suffit de faire en sorte que le type paramétré E implémente comparable<E>
+
+Exercice 2
+
+Car la liste attendu en argument est une liste d’Object et qu’on lui passe une liste de String il faut définir Object comme une borne en faisant <? Extends Objects>
+
+Exercice 3 
+
+Public static List<E extends CharSequence> listLength(List<E> 
+{
+	ArrayList<Integer> length = new ArrayList<>();
+	for (int i = 0; i<list.size();I++){
+		CharSequence seq=list.get(i);
+		length.add(seq.length());
+	}
+	return length;
+}
+
+
+TD 4 Threads : 
+
+Ex1
+La valeur finale de n n’est jamais la bonne, ceci est du au fait qu’elle est partagé par les deux threads, et que l’opération n++ n’est pas atomique  donc sa valeur a put avoir été modifier avant de finir l’opération 
 
 
 
